@@ -14,5 +14,7 @@ error: android: platform is already added
 meteor run android-device then leads to permission issues. Solved this by:
 
 
-5. sudo chown -R $(whoami) ~/.meteor
-6. In your project folder sudo chown -R $(whoami) .meteor/
+ sudo chown -R $(whoami) ~/.meteor
+
+
+ In your project folder sudo chown -R $(whoami) .meteor/
