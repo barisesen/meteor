@@ -1,6 +1,8 @@
 Meteor add platform Android
 
 Following steps solved the permission issues I mentioned above for UBUNTU 14.04:
+
+
 1. meteor remove-platform android
 2. meteor remove-platform ios (if added)
 3. sudo meteor add-platform android
