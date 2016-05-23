@@ -10,6 +10,12 @@ Your system does not yet seem to fulfill all requirements to build apps for Andr
 But when I (4.) sudo meteor add-platform android again, the message changes to:
 error: android: platform is already added
 
+
+
 meteor run android-device then leads to permission issues. Solved this by:
+
+
 5. sudo chown -R $(whoami) ~/.meteor
+6. 
+
 6. In your project folder sudo chown -R $(whoami) .meteor/
